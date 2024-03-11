@@ -18,7 +18,7 @@ main {
 
 button {
   cursor: pointer;
-  background-color: #007bff; 
+  background-color: #007bff;
 }
 
 #control-panel-wrapper {
@@ -46,7 +46,9 @@ button {
   overflow: auto;
 }
 
-#mood-board img, #mood-board .text-item, .draggable {
+#mood-board img,
+#mood-board .text-item,
+.draggable {
   position: absolute;
   max-width: 200px;
   max-height: 200px;
@@ -55,7 +57,8 @@ button {
   font-size: 2rem;
 }
 
-#control-panel input[type="text"], button {
+#control-panel input[type='text'],
+button {
   padding: 8px;
   margin-bottom: 10px;
   border: none;
@@ -65,8 +68,7 @@ button {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-
-#control-panel input[type="text"] {
+#control-panel input[type='text'] {
   background-color: #f0f0f0;
   color: black;
 }
